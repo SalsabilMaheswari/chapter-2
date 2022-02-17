@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.blog-form {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-form .form-container {
+    width: 500px;
+}
+
+.blog-form .form-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.blog-form .form-container button {
+    margin-top: 50px;
+    padding: 5px 30px;
+    font-size: 17px;
+    background: #000000;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.blog-form label {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.blog-form textarea {
+    height: 250px;
+}
+
+.blog-form .form-container .date {
+    display: flex;
+}
+
+.blog-form .form-container .date .enddate {
+    margin-left: 50px;
+}
+
+.blog-form .form-container .tech {
+    display: flex;
+}
+
+.blog-form .form-container .tech .left-side {
+    margin-left: 50px;
+} 
