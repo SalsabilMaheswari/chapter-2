@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.form-contact {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.form-contact .container-form h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.form-contact .container-form {
+    width: 500px;
+}
+
+.form-contact .container-form label{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: "montserrat", sans-serif;
+}
+
+.form-contact .container-form textarea{
+    height: 250px;
+}
+
+.form-contact .container-form button{
+    margin-top: 50px;
+    padding: 5px 30px;
+    font-size: 17px;
+    background: #000000;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 400px;
+}
